@@ -17,7 +17,7 @@ PORT = os.environ.get("PORT", "8010")
 ##---------------------------------------------------------------------------------------------------
 
 #Database
-DB_URI = os.environ.get("DATABASE_URL", "0")
+DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://joneltmpaigyj:nrP7vrULtfpE8LTf@cluster0.vlse2ho.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 DB_NAME = os.environ.get("DATABASE_NAME", "links-sharing")
 
 ##---------------------------------------------------------------------------------------------------
