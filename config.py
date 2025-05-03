@@ -5,13 +5,13 @@ from logging.handlers import RotatingFileHandler
 
 #Recommended
 TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "0")
-APP_ID = int(os.environ.get("APP_ID", "0"))
-API_HASH = os.environ.get("API_HASH", "0")
+APP_ID = int(os.environ.get("APP_ID", "21100083"))
+API_HASH = os.environ.get("API_HASH", "8980ecdc34880454c2e31eec10033f5b")
 
 ##---------------------------------------------------------------------------------------------------
 
 #Main 
-OWNER_ID = int(os.environ.get("OWNER_ID", "5090651635"))
+OWNER_ID = int(os.environ.get("OWNER_ID", "7594442610"))
 PORT = os.environ.get("PORT", "8010")
 
 ##---------------------------------------------------------------------------------------------------
@@ -27,7 +27,7 @@ TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 START_MSG = os.environ.get("START_MESSAGE", "") #No Need keep it blank
 try:
     ADMINS=[]
-    for x in (os.environ.get("ADMINS", "5090651635").split()):
+    for x in (os.environ.get("ADMINS", "7594442610").split()):
         ADMINS.append(int(x))
 except ValueError:
         raise Exception("Your Admins list does not contain valid integers.")
@@ -42,7 +42,7 @@ USER_REPLY_TEXT = None
 
 #Admin == OWNERID
 ADMINS.append(OWNER_ID)
-ADMINS.append(5090651635)
+ADMINS.append(7594442610)
 
 ##---------------------------------------------------------------------------------------------------
 
